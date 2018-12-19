@@ -1,0 +1,235 @@
+body{
+	background-image: url("../Images/High.jpg");
+	background-size: cover;
+	color: black;
+	font:15px/1.5 Georgia,serif,"Courier New", Courier, monospace;
+	margin:0;
+	padding: 0;
+}
+
+header{
+	border-bottom:#558CF1 3px solid;
+	background: #0C2147;
+	padding:0px;
+}
+
+header a:hover{
+	color:white;
+	font-weight:bold;
+}
+
+nav{
+	color:#558CF1;
+	overflow:hidden;
+	padding:10px;
+}
+
+ul {
+	color:#558CF1; 
+	font-size: 15px;
+	padding: 0px;
+    text-align: left;
+}
+
+nav ul li{
+	display: inline;
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 5px;
+}
+
+h2{
+	color:white;
+}
+
+.intro {
+  background-color: #ffffff;
+  border: 1px solid black;
+  margin: 25px;
+  opacity: 0.8;
+  padding:5px;
+}
+
+#In{
+	font-size:2.0em;
+	text-align:center;
+	text-shadow:1px 1px blue;
+	}
+	
+.intro h2{
+	color:#1154d0;
+}
+
+.main {   
+    flex: 70%;
+	margin:auto;
+    padding: 20px;
+	padding:5px;
+	width:55%;
+}
+
+a{
+	color:#558CF1;
+	
+}
+
+.mrandom{
+	background-color: #ffffff;
+	border:3px double black;
+	color:black;
+	float:left;
+	margin:5px;
+	opacity:0.8;
+	padding:5px;
+	width:35%;
+}
+
+.mpic{
+	float:right;
+	margin-right:100px;
+}
+.mpic a:hover{
+	color:pink;
+}
+
+/*Table formatting*/
+table, th, td{
+	border: 1px solid #e6faff;
+	border-collapse:collapse;
+}
+
+caption{
+	font-size:0.8em;
+	font-style:italic;
+}
+
+th{
+	padding:2.5px;
+}
+
+ td{
+	padding:5px;
+}
+
+tr{
+	background-color:white;
+}
+
+tr:nth-child(even){
+	background-color:#1D4682;
+}
+
+tr:hover{
+	background-color:#2D7185;
+	opacity:1;
+}
+
+/*Picture size formatting*/
+.pWeb{
+	background:white;
+	margin:10px;
+	padding:25px;
+}
+.F2019{
+	background:white;
+	height:200px;
+	margin:10px;
+	padding:25px;
+}
+.Art{
+	height:500px;
+	margin:10px;
+	padding:5px;
+}
+
+.Comics{
+	background:white;
+	height:200px;
+	margin:10px;
+	padding:25px;
+}
+.Games{
+	background:white;
+	height:200px;
+	margin:10px;
+	padding:5px;
+}
+
+/*Contact Form*/
+input[name=subject] {
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px;
+	padding:12px; /* Some padding */ 
+	width: 25%; /* Full width */
+}
+	
+textarea{
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+	height:200px;
+    margin-top: 0px; /* Add a top margin */
+	margin-bottom: 16px	;
+	padding: 12px; /* Some padding */  
+	width: 50%; /* Full width */
+}
+
+.contact{	
+	background-color:rgba(0, 0, 0, 0.3);
+	color:white;
+	padding:37px;
+}
+
+/*Responsive contact page*/
+@media screen and (max-width: 600px){
+	.email{
+		display:none;
+	}
+	.subject{
+		display:none;
+	}
+}
+
+/*JavaScript*/
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+#accordion{
+	padding:0px;
+	margin:0px;
+}
+
+footer{
+	background: #0C2147;
+	color: #B4CCF9;
+	bottom:0;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	width:100%;
+}
+
+.footer{
+	background: #0C2147;
+	bottom:0;
+	color: #B4CCF9;
+	margin:0px;
+	padding:0px;
+	position:fixed;
+	text-align:center;
+	width:100%;
+}
+#footer{
+	background: #0C2147;
+	color: #B4CCF9;
+	bottom:0;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	text-align:center;
+	width:100%;
+	height:100%;
+}
