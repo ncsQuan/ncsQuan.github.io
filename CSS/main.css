@@ -192,6 +192,12 @@ textarea{
 	}
 }
 
+@media screen and (max-width: 900px) {
+	.dialog {
+             visibility: hidden !important;
+        }
+}
+
 /*JavaScript*/
 .no-close .ui-dialog-titlebar-close {
   display: none;
