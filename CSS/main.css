@@ -25,7 +25,7 @@ nav{
 }
 
 ul {
-	color:#558CF1; 
+	color:#558CF1;
 	font-size: 15px;
 	padding: 0px;
     text-align: left;
@@ -56,12 +56,12 @@ h2{
 	text-align:center;
 	text-shadow:1px 1px blue;
 	}
-	
+
 .intro h2{
 	color:#1154d0;
 }
 
-.main {   
+.main {
     flex: 70%;
 	margin:auto;
     padding: 20px;
@@ -71,7 +71,7 @@ h2{
 
 a{
 	color:#558CF1;
-	
+
 }
 
 .mrandom{
@@ -85,10 +85,24 @@ a{
 	width:35%;
 }
 
+.uCon{
+	background-color: #ffffff;
+	border:1px double black;
+	margin:10% 10%;
+	opacity:0.8;
+	padding:1%;
+	width:30%;
+}
+
+.uCon h2{
+	color:black;
+}
+
 .mpic{
 	float:right;
 	margin-right:100px;
 }
+
 .mpic a:hover{
 	color:pink;
 }
@@ -163,20 +177,20 @@ input[name=subject] {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
 	margin-bottom: 16px;
-	padding:12px; /* Some padding */ 
+	padding:12px; /* Some padding */
 	width: 25%; /* Full width */
 }
-	
+
 textarea{
     box-sizing: border-box; /* Make sure that padding and width stays in place */
 	height:200px;
     margin-top: 0px; /* Add a top margin */
 	margin-bottom: 16px	;
-	padding: 12px; /* Some padding */  
+	padding: 12px; /* Some padding */
 	width: 50%; /* Full width */
 }
 
-.contact{	
+.contact{
 	background-color:rgba(0, 0, 0, 0.3);
 	color:white;
 	padding:37px;
